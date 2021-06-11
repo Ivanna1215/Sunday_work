@@ -1,0 +1,87 @@
+img {
+    height: 300px;/*Регулює вистоту*/
+    margin: 10px 50px; /*зовнішній відступ скорочений запис загуглити*/
+    border-radius:50%; 
+}
+.about {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+    border: 2px solid red ; /*скорочений запис границь solid - тип границь */ 
+    margin-bottom:120px; /*зовнішній відступ знизу*/
+    padding-bottom: 20px; /*внутрішній відступ знизу*/
+    background-color: burlywood;/*Додає заливку*/
+    text-align: center;
+}
+#gallery {
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+body {
+background-color: cornsilk;/*заливка на всю сторінку тому що в body*/
+width: 1500px; 
+margin: auto; /*загуглити*/
+}
+.header {
+border: 2px solid green;
+margin-bottom:20px;
+text-align: center;
+background-color: seagreen;
+color: snow;
+}
+.header h1 {
+    border: 1px solid white;
+    
+}
+nav {
+border: 2px solid pink ;
+margin-bottom:20px;
+text-transform: uppercase;/*всі літери великі*/
+border-radius: 10px;
+}
+nav a {
+    text-decoration: none; /*забирає маркери але конкретно з nav*/
+}
+.marker {
+    list-style-type: none; /*прочитати в інтернеті*/
+}
+.marker li {
+    display:inline ;
+    border: 2px solid green;
+    margin:0 200px;
+    
+}
+#skills {
+    border: 2px solid red ;
+margin-bottom:20px;
+text-align:center;
+}
+#skills ol {
+    text-align: left;
+}
+.biography {
+    padding: 50px;
+    text-align: right;
+    border: 2px solid blueviolet;
+}
+
+.footer {
+    border: 2px solid pink ;
+margin-bottom:20px;
+text-align: center;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(255, 47, 175);
+}
+.footer li {
+    list-style-type: square;
+    text-transform: uppercase;
+    display: inline;
+    margin: 0 120px;
+}
