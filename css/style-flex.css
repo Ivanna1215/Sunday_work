@@ -56,9 +56,11 @@ nav a {
     list-style-type: none; /*прочитати в інтернеті*/
 }
 .marker li {
-    display:inline ;
+    /* <!-- display:inline ; --> */
+    /* display:flex; */
     border: 2px solid green;
     margin:0 200px;
+    /* justify-content:space-evenly; */
     
 }
 #skills {
@@ -87,6 +89,8 @@ text-align: center;
 .footer li {
     list-style-type: square;
     text-transform: uppercase;
-    display: inline;
+    /* <!-- display: inline; --> */
+    /* display: flex;
+    flex-direction:column; */
     margin: 0 120px;
 }
